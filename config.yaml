@@ -3,9 +3,9 @@ predefined_roles:
 superadmin:
 	commands:
   - "*"
-		options:
-		inherit: admin
-		power: 500
+  options:
+  inherit: admin
+  power: 500
 admin:
 	commands:
 	- ban
