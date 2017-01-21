@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 predefined_roles:
-	superadmin:
+superadmin:
     	commands:
     		- "*"
 			    options:
