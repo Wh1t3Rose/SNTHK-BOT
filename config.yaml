@@ -1,39 +1,39 @@
 #!/usr/bin/ruby
 predefined_roles:
 superadmin:
-    	commands:
-    		- "*"
-			    options:
-			      inherit: admin
-			      power: 500
-	admin:
-		commands:
-			- ban
-			- setrole
-			options: 
-				inherit: moderator
-				power: 3
-  	member:
-   		commands:
-		    - about
-		    - choose
-		    - help
-		    - ping
-		    - random
-		    - time
-		    - calc
-		    - radio
-		    - plugin.list
-			    options:
-			      inherit: default
-			      power: 1
-  	moderator:
-    	commands:
-    		- warn
-    		- kick
-    			options:
-      				inherit: member
-      				power: 2
+	commands:
+  - "*"
+		options:
+		inherit: admin
+		power: 500
+admin:
+	commands:
+	- ban
+	- setrole
+		options: 
+		inherit: moderator
+		power: 3
+member:
+	commands:
+  - about
+  - choose
+  - help
+  - ping
+	- random
+  - time
+  - calc
+  - radio
+	- plugin.list
+			options:
+			inherit: default
+			power: 1
+moderator:
+	commands:
+  - warn
+  - kick
+  		options:
+  		inherit: member
+      power: 2
   	
 radio_channel: 
 restricted_permissions:
