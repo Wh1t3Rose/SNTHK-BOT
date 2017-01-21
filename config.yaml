@@ -33,7 +33,7 @@ moderator:
   	- kick
   		options:
   		inherit: member
-      		power: 2
+      power: 2
   	
 radio_channel: 
 restricted_permissions:
