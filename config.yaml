@@ -19,18 +19,18 @@ member:
   - choose
   - help
   - ping
-	- random
+  - random
   - time
   - calc
   - radio
-	- plugin.list
+  - plugin.list
 		options:
 		inherit: default
 		power: 1
 moderator:
 	commands:
-  - warn
-  - kick
+  	- warn
+  	- kick
   		options:
   		inherit: member
       		power: 2
